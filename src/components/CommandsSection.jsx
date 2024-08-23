@@ -14,7 +14,7 @@ const LeftPanel = ({ onLinkClick }) => {
 
   return (
     <div className="w-1/5 sticky top-10">
-      <div className="flex flex-col space-y-3">
+      <div className="flex flex-col space-y-3 sticky top-10">
         {[
           { number: 1, label: 'Eğlence' },
           { number: 2, label: 'Kullanıcı' },
@@ -51,22 +51,18 @@ const RightPanel = ({ data, searchTerm, onSearchChange }) => {
         <input
           type="text"
           placeholder="Komutları ara..."
-          className="w-full p-3 rounded-lg bg-[#313244] text-white"
+          className="w-full p-3 rounded-lg bg-[#313244] text-white space-y-4 mt-[-30px]"
           value={searchTerm}
           onChange={(e) => onSearchChange(e.target.value)}
         />
       </div>
       <div className="flex flex-col space-y-4 p-4">
-        {filteredData.length > 0 ? (
-          filteredData.map((item, index) => (
-            <div key={index} className="p-4 bg-[#232334] rounded-lg">
-              <div className="text-white text-sm font-semibold">{item.title}</div>
-              <div className="text-[#94B9CB] text-xs mt-1">{item.description}</div>
-            </div>
-          ))
-        ) : (
-          <div className="text-white text-center">No results found</div>
-        )}
+        {filteredData.map((item, index) => (
+          <div key={index} className="p-4 bg-[#232334] rounded-lg">
+            <div className="text-white text-sm font-semibold">{item.title}</div>
+            <div className="text-[#94B9CB] text-xs mt-1">{item.description}</div>
+          </div>
+        ))}
       </div>
     </div>
   );
