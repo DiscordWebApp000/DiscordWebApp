@@ -15,11 +15,11 @@ const LeftPanel = ({ onLinkClick }) => {
     <div className="w-1/5 sticky top-10">
       <div className="flex flex-col space-y-3 sticky top-10">
         {[
-          { number: 1, label: 'Eğlence' },
-          { number: 2, label: 'Kullanici' },
-          { number: 3, label: 'Puan Market' },
-          { number: 4, label: 'Yetkili' },
-          { number: 5, label: 'Bot' },
+          { number: 1, label: "Eğlence" },
+          { number: 2, label: "Kullanici" },
+          { number: 3, label: "Puan Market" },
+          { number: 4, label: "Yetkili" },
+          { number: 5, label: "Bot" },
         ].map(({ number, label }) => (
           <div
             key={number}
