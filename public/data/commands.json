@@ -54,7 +54,7 @@
     "data4": [
       { "title": "e!ban <kullanıcı> <sebep>", "description": "Etiketlediğiniz kişiyi sunucudan yasaklar." },
       { "title": "e!emojiekle <emoji>/<link> <emoji adı>", "description": "Sunucunuza belirttiğiniz link ve adda emoji yükler." },
-      { "title": "e!forceban <kullanıcı> [sebep]", "description": "ID'sini belirttiğiniz kullanıcıyı sunucudan yasaklar." },
+      { "title": "e!forceban <kullanıcı> [sebep]", "description": "ID sini belirttiğiniz kullanıcıyı sunucudan yasaklar." },
       { "title": "e!herkesetagver <tag>", "description": "Bot herkesin isminin başına belirlediğiniz tagı ekler." },
       { "title": "e!kanalaçıklama <açıklama>", "description": "Bulunduğunuz kanalın konusunu/açıklamasını değiştirir." },
       { "title": "e!komut <komut> <#kanallar/hepsi>", "description": "Botun belirli komutlarını kapatıp açar." },
