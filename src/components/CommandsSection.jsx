@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { data1, data2, data3, data4, data5 } from '../../public/data/commands.json'; // Verileri import ettik
+import data from '../../public/data/commands.json';
 
+const { data1, data2, data3, data4, data5 } = data;
 // Sol Panel Bileşeni
 const LeftPanel = ({ onLinkClick }) => {
   const [activeLink, setActiveLink] = useState(1);
