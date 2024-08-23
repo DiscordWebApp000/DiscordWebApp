@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import data from '../../public/data/commands.json';
 
 const { data1, data2, data3, data4, data5 } = data;
+
 // Sol Panel Bileşeni
 const LeftPanel = ({ onLinkClick }) => {
   const [activeLink, setActiveLink] = useState(1);
@@ -15,11 +16,11 @@ const LeftPanel = ({ onLinkClick }) => {
     <div className="w-1/5 sticky top-10">
       <div className="flex flex-col space-y-3 sticky top-10">
         {[
-          { number: 1, label: "Eğlence" },
-          { number: 2, label: "Kullanici" },
-          { number: 3, label: "Puan Market" },
-          { number: 4, label: "Yetkili" },
-          { number: 5, label: "Bot" },
+          { number: 1, label: 'Eğlence' },
+          { number: 2, label: 'Kullanıcı' },
+          { number: 3, label: 'Puan Market' },
+          { number: 4, label: 'Yetkili' },
+          { number: 5, label: 'Bot' },
         ].map(({ number, label }) => (
           <div
             key={number}
@@ -38,9 +39,10 @@ const LeftPanel = ({ onLinkClick }) => {
 
 // Sağ Panel Bileşeni
 const RightPanel = ({ data, searchTerm, onSearchChange }) => {
-  const filteredData = data.filter(item =>
-    item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    item.description.toLowerCase().includes(searchTerm.toLowerCase())
+  const filteredData = data.filter(
+    (item) =>
+      item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      item.description.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
