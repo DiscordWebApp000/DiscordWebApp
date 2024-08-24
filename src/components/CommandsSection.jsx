@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import data from '../../public/data/commands.json';
+import '../../src/app/globals.css';
 
 const { data1, data2, data3, data4, data5 } = data;
 
@@ -13,8 +14,8 @@ const LeftPanel = ({ onLinkClick }) => {
   };
 
   return (
-    <div className="w-1/5 sticky top-10">
-      <div className="flex flex-col space-y-3 sticky top-10">
+    <div className="w-full sm:w-1/5 sm-sticky top-10 mb-8">
+      <div className="flex flex-col space-y-3 sm:sticky sm:top-10">
         {[
           { number: 1, label: 'Eğlence' },
           { number: 2, label: 'Kullanıcı' },
@@ -46,7 +47,7 @@ const RightPanel = ({ data, searchTerm, onSearchChange }) => {
   );
 
   return (
-    <div className="w-3/4 mx-auto">
+    <div className="w-full sm:w-3/4 mx-auto">
       <div className="p-4 rounded-t-lg">
         <input
           type="text"
@@ -100,8 +101,8 @@ const CommandsSection = () => {
   };
 
   return (
-    <div className="flex p-4 mt-[150px]">
-      <LeftPanel onLinkClick={handleLinkClick} />
+    <div className="flex flex-col sm:flex-row p-4 mt-[150px]">
+      <LeftPanel onLinkClick={handleLinkClick} className="mb-[50px]" />
       <RightPanel data={currentData} searchTerm={searchTerm} onSearchChange={handleSearchChange} />
     </div>
   );

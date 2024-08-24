@@ -111,6 +111,20 @@ body {
     margin-top: 1rem; /* 16px */
     margin-bottom: 1rem; /* 16px */
   }
+
+  .commands-section {
+    flex-direction: column;
+  }
+
+  .left-panel {
+    width: 100%;
+    position: static; /* Sticky özelliğini kaldır */
+    margin-bottom: 1rem; /* Sağ panel ile araya boşluk bırakmak için */
+  }
+
+  .right-panel {
+    width: 100%;
+  }
 }
 
 /* Büyük ekranlar (büyük dizüstü bilgisayarlar) */
