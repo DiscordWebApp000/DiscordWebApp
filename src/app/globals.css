@@ -49,3 +49,108 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #4d759e;
 }
+
+/* Mobil (en küçük ekranlar) */
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.25rem; /* 20px */
+  }
+
+  .section-description {
+    font-size: 0.75rem; /* 12px */
+  }
+
+  .button {
+    width: 100%;
+    max-width: 160px; /* 100% genişlik, maksimum 160px */
+  }
+
+  .section-container {
+    margin-top: 1.5rem; /* 24px */
+    margin-bottom: 1.5rem; /* 24px */
+  }
+}
+
+/* Küçük ekranlar (tablet) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .section-title {
+    font-size: 1.5rem; /* 24px */
+  }
+
+  .section-description {
+    font-size: 0.875rem; /* 14px */
+  }
+
+  .button {
+    width: 100%;
+    max-width: 180px; /* 100% genişlik, maksimum 180px */
+  }
+
+  .section-container {
+    margin-top: 1.25rem; /* 20px */
+    margin-bottom: 1.25rem; /* 20px */
+  }
+}
+
+/* Orta ekranlar (küçük dizüstü bilgisayarlar) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .section-title {
+    font-size: 1.75rem; /* 28px */
+  }
+
+  .section-description {
+    font-size: 1rem; /* 16px */
+  }
+
+  .button {
+    width: 100%;
+    max-width: 200px; /* 100% genişlik, maksimum 200px */
+  }
+
+  .section-container {
+    margin-top: 1rem; /* 16px */
+    margin-bottom: 1rem; /* 16px */
+  }
+}
+
+/* Büyük ekranlar (büyük dizüstü bilgisayarlar) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .section-title {
+    font-size: 2rem; /* 32px */
+  }
+
+  .section-description {
+    font-size: 1.125rem; /* 18px */
+  }
+
+  .button {
+    width: 100%;
+    max-width: 220px; /* 100% genişlik, maksimum 220px */
+  }
+
+  .section-container {
+    margin-top: 0.75rem; /* 12px */
+    margin-bottom: 0.75rem; /* 12px */
+  }
+}
+
+/* En büyük ekranlar (masaüstü bilgisayarlar) */
+@media (min-width: 1441px) {
+  .section-title {
+    font-size: 2.25rem; /* 36px */
+  }
+
+  .section-description {
+    font-size: 1.25rem; /* 20px */
+  }
+
+  .button {
+    width: 100%;
+    max-width: 240px; /* 100% genişlik, maksimum 240px */
+  }
+
+  .section-container {
+    margin-top: 0.5rem; /* 8px */
+    margin-bottom: 0.5rem; /* 8px */
+  }
+}
