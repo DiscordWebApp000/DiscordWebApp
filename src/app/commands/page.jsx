@@ -7,7 +7,7 @@ import Footer from '../../components/Footer';
 const Page = () => {
   return (
     <>
-      <div className="max-w-[1200px] mx-auto mb-16">
+      <div className="max-w-[1200px] mx-auto mb-16 px-2">
         <Navbar />
 
         <div className="flex flex-col justify-center items-center mb-16 mt-32">

@@ -11,7 +11,7 @@ import Footer from '../components/Footer';
 const Page = () => {
   return (
     <>
-      <div className='max-w-[1200px] mx-auto px-4'>
+      <div className='max-w-[1200px] mx-auto px-4 px-2'>
         <Navbar />
 
         {/* İlk Bölüm */}

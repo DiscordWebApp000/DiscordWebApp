@@ -7,7 +7,7 @@ import '../../app/globals.css';
 const Page = () => {
   return (
     <>
-      <div className="max-w-[1200px] mx-auto">
+      <div className="max-w-[1200px] mx-auto px-2">
         <Navbar />
 
         <div className="flex flex-col justify-center items-center mb-16 mt-32">
