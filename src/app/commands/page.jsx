@@ -15,10 +15,10 @@ const Page = () => {
             Komutlar
           </h1>
           <p className="text-[17px] font-normal leading-relaxed mt-2 text-[#B4B9CB] w-[45%] text-center">
-            ErensiBOT'un komutlarına buradan ulaşabilirsiniz
+            ErensiBOT&apos;un komutlarına buradan ulaşabilirsiniz
           </p>
         </div>
-      {/* <CommandsSection /> */}
+      <CommandsSection />
       </div>
       <Footer />
     </>
