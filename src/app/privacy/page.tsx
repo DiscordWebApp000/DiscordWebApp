@@ -20,14 +20,14 @@ const PrivacyPolicy = () => {
           <ol className="list-decimal ml-8">
             <li className="mb-8">
               <p>
-                Bu Gizlilik Politikası, "ErensiBOT" olarak bilinen Discord botunun ve{' '}
-                <Link href="https://eren.si" className="text-[#818CF8] underline">https://eren.si</Link>{' '}
+                Bu Gizlilik Politikası, &quot;ErensiBOT&quot; olarak bilinen Discord botunun ve&nbsp;
+                <Link href="https://eren.si" className="text-[#818CF8] underline">https://eren.si</Link>&nbsp;
                 web sitesinin kullanım amacını, toplanan verilerin açıkça tarafınıza bildirilmesi, toplanan verilerin ne şekilde toplandığını açıklamak ve açıkça belirtmek amacıyla oluşturulmuştur.
               </p>
             </li>
             <li className="mb-8">
               <p>
-                Hizmeti sağlamak için, aşağıdakilerden bazıları veya tümü dahil olmak üzere belirli kişisel bilgiler ("Veriler") toplanır ve işlenir. Bunlar:
+                Hizmeti sağlamak için, aşağıdakilerden bazıları veya tümü dahil olmak üzere belirli kişisel bilgiler (&quot;Veriler&quot;) toplanır ve işlenir. Bunlar:
               </p>
               <ul className="list-disc ml-8 mb-8">
                 <li>
@@ -54,8 +54,8 @@ const PrivacyPolicy = () => {
             </li>
             <li className="mb-8">
               <p>
-                Kişisel verileriniz çeşitli sebeplerle PayTR Ödeme ve Elektronik Para Kuruluşu A.Ş. ile paylaşılabilir. Daha fazla bilgi için{' '}
-                <Link href="https://www.paytr.com/gizlilik" className="text-[#818CF8] underline">PayTR Gizlilik Politikasına</Link>{' '}
+                Kişisel verileriniz çeşitli sebeplerle PayTR Ödeme ve Elektronik Para Kuruluşu A.Ş. ile paylaşılabilir. Daha fazla bilgi için&nbsp;
+                <Link href="https://www.paytr.com/gizlilik" className="text-[#818CF8] underline">PayTR Gizlilik Politikasına</Link>&nbsp;
                 göz atınız.
               </p>
             </li>
@@ -76,15 +76,15 @@ const PrivacyPolicy = () => {
             </li>
             <li className="mb-8">
               <p>
-                Kullanıcı deneyiminizi iyileştirmek amacıyla siteye erişirken “çerezler” kullanılabilir. Çerezler ayrıca genel kullanım ve hacim istatistiksel bilgilerini toplamak için kullanılır. "Flash" çerezleri olarak da bilinen yerel "paylaşılan nesneleri" kullanabiliriz. ErensiBOT, çerezlerin bu amaçlar dışında kullanılmayacağını kabul, beyan ve taahhüt eder.
+                Kullanıcı deneyiminizi iyileştirmek amacıyla siteye erişirken “çerezler” kullanılabilir. Çerezler ayrıca genel kullanım ve hacim istatistiksel bilgilerini toplamak için kullanılır. &quot;Flash&quot; çerezleri olarak da bilinen yerel &quot;paylaşılan nesneleri&quot; kullanabiliriz. ErensiBOT, çerezlerin bu amaçlar dışında kullanılmayacağını kabul, beyan ve taahhüt eder.
               </p>
             </li>
             <li className="mb-8">
               <p>
-                Verilerinize erişme ve verilerinizin düzeltilmesini, silinmesini, kısıtlanmasını veya işlenmesine itiraz etme hakkınız olduğunu lütfen unutmayın. Yürürlükteki yasalara tabi olarak,{' '}
-                <Link href="mailto:info@eren.si" className="text-[#818CF8] underline">info@eren.si</Link>{' '}
-                adresinden bizimle iletişime geçerek onayınızı geri çekebilirsiniz. Bizden e-posta bildirimleri veya reklamlar almakla ilgilenmiyorsanız,{' '}
-                <Link href="mailto:info@eren.si" className="text-[#818CF8] underline">info@eren.si</Link>{' '}
+                Verilerinize erişme ve verilerinizin düzeltilmesini, silinmesini, kısıtlanmasını veya işlenmesine itiraz etme hakkınız olduğunu lütfen unutmayın. Yürürlükteki yasalara tabi olarak,&nbsp;
+                <Link href="mailto:info@eren.si" className="text-[#818CF8] underline">info@eren.si</Link>&nbsp;
+                adresinden bizimle iletişime geçerek onayınızı geri çekebilirsiniz. Bizden e-posta bildirimleri veya reklamlar almakla ilgilenmiyorsanız,&nbsp;
+                <Link href="mailto:info@eren.si" className="text-[#818CF8] underline">info@eren.si</Link>&nbsp;
                 adresine e-mail göndererek talepte bulunabilirsiniz. Her durumda, hizmeti sağlamak için gerekli verileri ve diğer yasal nedenleri geçerli Veri Koruma Yasasına tam olarak uygun şekilde tutma hakkını saklı tutarız.
               </p>
             </li>
@@ -95,8 +95,8 @@ const PrivacyPolicy = () => {
             </li>
             <li className="mb-8">
               <p>
-                Gizlilik uygulamalarımız hakkında başka sorularınız varsa, lütfen{' '}
-                <Link href="mailto:info@eren.si" className="text-[#818CF8] underline">info@eren.si</Link>{' '}
+                Gizlilik uygulamalarımız hakkında başka sorularınız varsa, lütfen&nbsp;
+                <Link href="mailto:info@eren.si" className="text-[#818CF8] underline">info@eren.si</Link>&nbsp;
                 adresine e-posta göndererek bizimle iletişime geçiniz.
               </p>
             </li>

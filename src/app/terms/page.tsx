@@ -18,7 +18,7 @@ const Page = () => {
         <section className="mx-auto max-w-4xl py-8 md:py-16 px-4">
           <div className="prose prose-lg prose-invert !max-w-none">
             <p className="text-[#D1D5DB] text-base mb-6">
-              <span className="text-[#D1D5DB] text-lg">ErensiBOT</span> (&quot;biz&quot;, &quot;biz&quot; veya &quot;bizim&quot;) tarafından işletilen
+              <span className="text-[#D1D5DB] text-lg">ErensiBOT</span> (&quot;biz&quot;, &quot;biz&quot; veya &quot;bizim&quot;) tarafından işletilen&nbsp;
               <Link href="https://eren.si" className="text-indigo-500 underline text-[#818CF8]">
                 https://eren.si
               </Link> web sitesini (&quot;Hizmet&quot;) kullanmadan önce lütfen bu Şartlar ve Koşulları (&quot;Şartlar&quot;, &quot;Şartlar ve Koşullar&quot;) dikkatlice okuyun. Hizmete erişiminiz ve Hizmeti kullanımınız, bu Şartları kabul etmeniz ve bunlara uymanız koşuluna bağlıdır. Bu Şartlar, Hizmet&apos;e erişmek veya Hizmet&apos;i kullanmak isteyen tüm ziyaretçiler, kullanıcılar ve diğerleri için geçerlidir. Hizmete erişerek veya Hizmeti kullanarak bu Şartlara tabi olmayı kabul edersiniz. Şartların herhangi bir bölümüne katılmıyorsanız, Hizmete erişim izniniz yoktur.
