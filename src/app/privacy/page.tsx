@@ -96,7 +96,7 @@ const PrivacyPolicy = () => {
             <li className="mb-8">
               <p>
                 Gizlilik uygulamalarımız hakkında başka sorularınız varsa, lütfen&nbsp;
-                <Link href="mailto:info@eren.si" className="text-[#818CF8] underline">info@eren.si</Link>&nbsp;
+                <Link href="mailto:info@eren.si" className="text-[#818CF8] underline">info@eren.si </Link>&nbsp;
                 adresine e-posta göndererek bizimle iletişime geçiniz.
               </p>
             </li>
