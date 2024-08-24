@@ -18,8 +18,7 @@ const Page = () => {
             ErensiBOT'un komutlarına buradan ulaşabilirsiniz
           </p>
         </div>
-
-        <CommandsSection />
+      {/* <CommandsSection /> */}
       </div>
       <Footer />
     </>
