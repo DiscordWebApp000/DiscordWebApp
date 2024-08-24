@@ -1,7 +1,7 @@
-import React from 'react';
-import Link from 'next/link';
-import Navbar from '../../components/Navbar';
-import Footer from '../../components/Footer';
+import React from "react";
+import Link from "next/link";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 
 const Page = () => {
   return (
@@ -18,15 +18,15 @@ const Page = () => {
         <section className="mx-auto max-w-4xl py-8 md:py-16 px-4">
           <div className="prose prose-lg prose-invert !max-w-none">
             <p className="text-[#D1D5DB] text-base mb-6">
-              <span className="text-[#D1D5DB] text-lg">ErensiBOT</span> ("biz", "biz" veya "bizim") tarafından işletilen{' '}
+              <span className="text-[#D1D5DB] text-lg">ErensiBOT</span> (&quot;biz&quot;, &quot;biz&quot; veya &quot;bizim&quot;) tarafından işletilen
               <Link href="https://eren.si" className="text-indigo-500 underline text-[#818CF8]">
                 https://eren.si
-              </Link> web sitesini ("Hizmet") kullanmadan önce lütfen bu Şartlar ve Koşulları ("Şartlar", "Şartlar ve Koşullar") dikkatlice okuyun. Hizmete erişiminiz ve Hizmeti kullanımınız, bu Şartları kabul etmeniz ve bunlara uymanız koşuluna bağlıdır. Bu Şartlar, Hizmet'e erişmek veya Hizmet'i kullanmak isteyen tüm ziyaretçiler, kullanıcılar ve diğerleri için geçerlidir. Hizmete erişerek veya Hizmeti kullanarak bu Şartlara tabi olmayı kabul edersiniz. Şartların herhangi bir bölümüne katılmıyorsanız, Hizmete erişim izniniz yoktur.
+              </Link> web sitesini (&quot;Hizmet&quot;) kullanmadan önce lütfen bu Şartlar ve Koşulları (&quot;Şartlar&quot;, &quot;Şartlar ve Koşullar&quot;) dikkatlice okuyun. Hizmete erişiminiz ve Hizmeti kullanımınız, bu Şartları kabul etmeniz ve bunlara uymanız koşuluna bağlıdır. Bu Şartlar, Hizmet&apos;e erişmek veya Hizmet&apos;i kullanmak isteyen tüm ziyaretçiler, kullanıcılar ve diğerleri için geçerlidir. Hizmete erişerek veya Hizmeti kullanarak bu Şartlara tabi olmayı kabul edersiniz. Şartların herhangi bir bölümüne katılmıyorsanız, Hizmete erişim izniniz yoktur.
             </p>
 
             <h3 className="text-2xl font-semibold mb-4">Satın Almalar</h3>
             <p className="text-[#D1D5DB] text-base mb-6">
-              Hizmet aracılığıyla sunulan herhangi bir ürün veya hizmeti ("Satın Alma") satın almak isterseniz, kredi kartı numaranız, kredi kartınızın son kullanma tarihi, fatura adresiniz ve gönderim bilgileriniz dahil ancak bunlarla sınırlı olmamak üzere Satın Alma işleminizle ilgili belirli bilgileri sağlamanız istenebilir.
+              Hizmet aracılığıyla sunulan herhangi bir ürün veya hizmeti (&quot;Satın Alma&quot;) satın almak isterseniz, kredi kartı numaranız, kredi kartınızın son kullanma tarihi, fatura adresiniz ve gönderim bilgileriniz dahil ancak bunlarla sınırlı olmamak üzere Satın Alma işleminizle ilgili belirli bilgileri sağlamanız istenebilir.
             </p>
             <p className="text-[#D1D5DB] text-base mb-6">
               Şunları beyan ve garanti edersiniz: (i) herhangi bir Satın Alma ile bağlantılı olarak herhangi bir kredi kartını/kartlarını veya diğer ödeme yöntemini/yöntemlerini kullanmak için yasal hakka sahip olduğunuzu; ve (ii) bize sağladığınız bilgilerin gerçek, doğru ve eksiksiz olduğunu.
@@ -48,7 +48,7 @@ const Page = () => {
 
             <h3 className="text-2xl font-semibold mb-4">Diğer Web Sitelerine Bağlantılar</h3>
             <p className="text-[#D1D5DB] text-base mb-6">
-              Hizmetimiz, ErensiBOT'a ait olmayan veya ErensiBOT tarafından kontrol edilmeyen üçüncü taraf web sitelerine veya hizmetlerine bağlantılar içerebilir. ErensiBOT, herhangi bir üçüncü taraf web sitesinin veya hizmetinin içeriği, gizlilik politikaları veya uygulamaları üzerinde hiçbir kontrole sahip değildir ve hiçbir sorumluluk kabul etmez. Bu kuruluşların/bireylerin veya web sitelerinin tekliflerini garanti etmiyoruz. Ayrıca, ErensiBOT'un, bu tür web sitelerinde veya hizmetlerde bulunan bu tür içerik, mal veya hizmetlerin kullanımından veya bunlara güvenilmesinden kaynaklanan veya bunlarla bağlantılı olduğu iddia edilen herhangi bir hasar veya kayıptan doğrudan veya dolaylı olarak sorumlu veya yükümlü olmayacağını kabul ve beyan edersiniz. Ziyaret ettiğiniz tüm üçüncü taraf web sitelerinin veya hizmetlerinin hüküm ve koşulları ile gizlilik politikalarını okumanızı önemle tavsiye ederiz.
+              Hizmetimiz, ErensiBOT&apos;a ait olmayan veya ErensiBOT tarafından kontrol edilmeyen üçüncü taraf web sitelerine veya hizmetlerine bağlantılar içerebilir. ErensiBOT, herhangi bir üçüncü taraf web sitesinin veya hizmetinin içeriği, gizlilik politikaları veya uygulamaları üzerinde hiçbir kontrole sahip değildir ve hiçbir sorumluluk kabul etmez. Bu kuruluşların/bireylerin veya web sitelerinin tekliflerini garanti etmiyoruz. Ayrıca, ErensiBOT&apos;un, bu tür web sitelerinde veya hizmetlerde bulunan bu tür içerik, mal veya hizmetlerin kullanımından veya bunlara güvenilmesinden kaynaklanan veya bunlarla bağlantılı olduğu iddia edilen herhangi bir hasar veya kayıptan doğrudan veya dolaylı olarak sorumlu veya yükümlü olmayacağını kabul ve beyan edersiniz. Ziyaret ettiğiniz tüm üçüncü taraf web sitelerinin veya hizmetlerinin hüküm ve koşulları ile gizlilik politikalarını okumanızı önemle tavsiye ederiz.
             </p>
 
             <h3 className="text-2xl font-semibold mb-4">Fesih</h3>
@@ -70,23 +70,28 @@ const Page = () => {
 
             <h3 className="text-2xl font-semibold mb-4">Sorumluluk Reddi</h3>
             <p className="text-[#D1D5DB] text-base mb-6">
-              Hizmeti kullanımınıza ilişkin risk tamamen size aittir. Hizmet "OLDUĞU GİBİ" ve "MEVCUT OLDUĞU ŞEKİLDE" sağlanmaktadır. Hizmet, ticari elverişlilik, belirli bir amaca uygunluk, ihlal etmeme veya performans seyrine ilişkin zımni garantiler dahil ancak bunlarla sınırlı olmamak üzere, açık veya zımni hiçbir garanti olmaksızın sağlanmaktadır.
-            </p>
-
-            <h3 className="text-2xl font-semibold mb-4">İstisnalar</h3>
-            <p className="text-[#D1D5DB] text-base mb-6">
-              Bazı yargı bölgeleri, arızi veya neticede doğan zararların hariç tutulmasına veya sınırlanmasına izin vermez, bu nedenle yukarıdaki sınırlamalardan bazıları sizin için geçerli olmayabilir.
+              Hizmet&apos;i kullanımınız tamamen sizin sorumluluğunuzdadır. Hizmet, &quot;OLDUĞU GİBİ&quot; ve &quot;MEVCUT OLDUĞU GİBİ&quot; esasına göre sunulmaktadır. Hizmet, açık veya zımni hiçbir garanti olmaksızın, ticarete elverişlilik, belirli bir amaca uygunluk, ihlal etmeme veya performans sürecinden kaynaklanan garantiler de dahil olmak üzere sağlanmaktadır.
             </p>
 
             <h3 className="text-2xl font-semibold mb-4">Geçerli Hukuk</h3>
             <p className="text-[#D1D5DB] text-base mb-6">
-              Bu Şartlar, Türkiye Cumhuriyeti kanunlarına göre yönetilecek ve yorumlanacaktır, kanunlar ihtilafı hükümleri hariç tutulmuştur. Bu Şartların herhangi bir hakkını veya hükmünü yerine getirmememiz, bu haklardan veya hükümlerden feragat edildiği anlamına gelmez. Bu Şartların herhangi bir hükmünün bir mahkeme tarafından geçersiz veya uygulanamaz olarak kabul edilmesi durumunda, bu Şartların kalan hükümleri yürürlükte kalmaya devam edecektir. Bu Şartlar, Hizmetimize ilişkin aramızdaki anlaşmanın tamamını oluşturur ve Hizmetle ilgili olarak aramızda daha önce yaptığımız anlaşmaların yerine geçer.
+              Bu Şartlar, Türkiye yasalarına göre yönetilecek ve bu yasalara uygun olarak yorumlanacaktır; yasaların ihtilafına bakılmaksızın.
+            </p>
+            <p className="text-[#D1D5DB] text-base mb-6">
+              Bu Şartlarda yer alan herhangi bir hakkı veya hükmü uygulamamamız, bu haklardan feragat edildiği anlamına gelmez. Bu Şartların herhangi bir hükmünün bir mahkeme tarafından geçersiz veya uygulanamaz olarak değerlendirilmesi durumunda, bu Şartların diğer hükümleri yürürlükte kalacaktır. Bu Şartlar, Hizmetimizle ilgili olarak aramızdaki anlaşmanın tamamını teşkil eder ve Hizmetle ilgili olabilecek önceki anlaşmaların yerine geçer.
+            </p>
+
+            <h3 className="text-2xl font-semibold mb-4">Değişiklikler</h3>
+            <p className="text-[#D1D5DB] text-base mb-6">
+              Tamamen kendi takdirimize bağlı olarak, bu Şartları herhangi bir zamanda değiştirme veya yerine yenilerini getirme hakkını saklı tutarız. Revizyon önemliyse, yürürlüğe girmeden en az 30 gün önce yeni şartlar hakkında bilgi vereceğiz. Bir revizyonun &quot;önemli&quot; olduğu, tamamen kendi takdirimize bağlı olarak belirlenir.
+            </p>
+            <p className="text-[#D1D5DB] text-base mb-6">
+              Bu revizyonların yürürlüğe girmesinden sonra Hizmetimize erişmeye veya Hizmetimizi kullanmaya devam ederek, revize edilen şartlara tabi olmayı kabul edersiniz. Yeni şartları kabul etmiyorsanız, lütfen Hizmeti kullanmayı bırakın.
             </p>
           </div>
         </section>
       </div>
-
-      <Footer />
+        <Footer />
     </>
   );
 };
