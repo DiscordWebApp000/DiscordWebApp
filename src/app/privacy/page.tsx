@@ -37,17 +37,17 @@ const PrivacyPolicy = () => {
                 </li>
                 <li>
                   <p>
-                    Google Analytics'in web sitesinden topladığı veriler
+                    Google Analytics&apos;in web sitesinden topladığı veriler
                   </p>
                 </li>
                 <li>
                   <p>
-                    Google AdSense'in topladığı ve çerezlere kaydettiği veriler
+                    Google AdSense&apos;in topladığı ve çerezlere kaydettiği veriler
                   </p>
                 </li>
                 <li>
                   <p>
-                    Cloudflare'in topladığı veriler
+                    Cloudflare&apos;in topladığı veriler
                   </p>
                 </li>
               </ul>
