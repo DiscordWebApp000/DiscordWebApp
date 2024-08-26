@@ -69,12 +69,12 @@ const Page = () => {
 
         <div className='text-xl h-full w-full flex justify-center items-center'>
           <section 
-            className="w-[70%] mx-auto flex flex-row items-center justify-center gap-y-4 py-8 md:flex-row md:py-16" 
+            className="w-[70%] mx-auto flex flex-col items-center justify-center gap-y-4 py-8 md:flex-row md:py-16" 
             id="plans"
           >
             {/* Premium Plan */}
             <motion.div 
-              className="flex w-[50%] flex-col gap-y-6 rounded-xl bg-[#232334] border border-white/10 p-6 shadow-lg md:p-8 z-10"
+              className="flex w-full md:w-[50%] flex-col gap-y-6 rounded-xl bg-[#232334] border border-white/10 p-6 shadow-lg md:p-8 z-10"
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 0.2 }}
@@ -110,7 +110,7 @@ const Page = () => {
 
             {/* Custom Plan */}
             <motion.div 
-              className="flex w-[45%] flex-col gap-y-4 rounded-xl bg-[#232334] border border-white/10 p-6 shadow-lg md:p-6 md:rounded-l-none"
+              className="flex w-full md:w-[45%] flex-col gap-y-4 rounded-xl bg-[#232334] border border-white/10 p-6 shadow-lg md:p-6 md:rounded-l-none"
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 0.4 }}
@@ -143,8 +143,7 @@ const Page = () => {
               </footer>
             </motion.div>
           </section>
-        </div>
-
+        </div>  
         <Plans />
       </div>
 
