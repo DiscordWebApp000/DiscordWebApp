@@ -1,7 +1,7 @@
 import NextAuth from 'next-auth';
 import DiscordProvider from 'next-auth/providers/discord';
 
-export const authOptions = {
+const authOptions = {
   providers: [
     DiscordProvider({
       clientId: process.env.DISCORD_CLIENT_ID,
@@ -14,22 +14,22 @@ export const authOptions = {
       console.log('User:', user);
       console.log('Account:', account);
       console.log('Profile:', profile);
-      return true; // Eğer false döndürürseniz, oturum açma engellenir
+      return true;
     },
     async session({ session, token, user }) {
       console.log('Session:', session);
-      return session; // Burada döndürülen session, istemciye gönderilir
+      return session;
     },
     async jwt({ token, user, account, profile }) {
       console.log('JWT Token:', token);
-      return token; // Token'ı istediğiniz gibi değiştirebilirsiniz
+      return token;
     },
     async redirect({ url, baseUrl }) {
-      return baseUrl; // Bu, kullanıcıyı ana sayfaya yönlendirecektir
+      return baseUrl; // Kullanıcıyı ana sayfaya yönlendir
     },
   },
   pages: {
-    signIn: '/auth/signin', // Özel bir giriş sayfası oluşturabilirsiniz
+    signIn: '/auth/signin',
   },
 };
 
