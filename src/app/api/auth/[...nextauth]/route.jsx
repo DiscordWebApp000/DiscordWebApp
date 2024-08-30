@@ -33,5 +33,6 @@ const authOptions = {
   },
 };
 
+
 export const GET = NextAuth(authOptions);
 export const POST = NextAuth(authOptions);
