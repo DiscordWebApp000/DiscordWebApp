@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[context.production.environment]
+  NEXTAUTH_URL = "https://your-netlify-site.netlify.app"
+  DISCORD_CLIENT_ID = "your_discord_client_id"
+  DISCORD_CLIENT_SECRET = "your_discord_client_secret"
