@@ -9,6 +9,7 @@ const authOptions = {
       authorization: { params: { scope: 'identify email' } },
     }),
   ],
+  secret: process.env.NEXTAUTH_SECRET, // Secret'ı buraya ekleyin
   callbacks: {
     async signIn({ user, account, profile }) {
       console.log('User:', user);
