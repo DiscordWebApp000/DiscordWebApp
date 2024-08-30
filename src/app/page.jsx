@@ -36,7 +36,7 @@ const Page = () => {
               text="Discorda Ekle"
               color="#6E5FCE"
               hoverColor="#594CBC"
-              url="/" 
+              url="/api/auth/signin" 
               image={true}
               className="w-full md:w-[280px]"
             />
