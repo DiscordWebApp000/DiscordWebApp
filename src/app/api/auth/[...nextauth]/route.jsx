@@ -25,7 +25,7 @@ const authOptions = {
       return token;
     },
     async redirect({ url, baseUrl }) {
-      return baseUrl; // Kullanıcıyı ana sayfaya yönlendir
+      return baseUrl;
     },
   },
   pages: {
